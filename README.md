@@ -1,11 +1,19 @@
 # Havenova
 
-Havenova is a full-stack property listing web application that allows users to discover, create, manage, and review rental properties in one place.
+A full-stack accommodation booking web application inspired by Airbnb, built using Node.js, Express.js, MongoDB and EJS.
+
+## Live Demo
+View Havenova - https://havenova.onrender.com
+
+## About 
+
+Havenova is a web application that allows users to explore accomodation listings, discover destinations, and 
+manage property listings. It features a clean user interface and a structured backend built using the MVC architecture.
 
 ## Features
 
--  Browse available property listings
--  View detailed information about properties
+-  Browse accommodation listings
+-  View detailed property information
 -  Create new property listings
 -  Edit and manage your listings
 -  Delete listings
@@ -13,26 +21,49 @@ Havenova is a full-stack property listing web application that allows users to d
 -  User authentication and authorization
 -  Responsive and user-friendly interface
 -  Form validation and error handling
+-  RESTful routing
+-  CRUD operations
+-  MVC architecture 
 
 ## Tech Stack
 
-### Frontend
-- HTML
-- CSS
-- JavaScript
-- EJS (Embedded JavaScript Templates)
-- Bootstrap
+- **Frontend:** HTML, CSS, JavaScript, EJS, Bootstrap
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Architecture:** MVC
+- **Tools:** Git, Github, VS Code
+- **Authentication & Other Tools:** Passport.js, Express Session, Joi, Connect-Mongo
 
-### Backend
-- Node.js
-- Express.js
+## Installation & Setup
 
-### Database
-- MongoDB
-- Mongoose
+1. Clone the repository
 
-### Authentication & Other Tools
-- Passport.js
-- Express Session
-- Joi
-- Connect-Mongo
+```bash
+git clone
+https://github.com/AprajitaMishra-CS/havenova.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd havenova
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Create a .env file and configure the required environment variables.
+
+5. Start the application
+
+```bash
+node app.js
+```
+
+## Author
+### Aprajita Mishra
+
+- Github - https://github.com/AprajitaMishra-CS
